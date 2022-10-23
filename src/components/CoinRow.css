@@ -1,0 +1,24 @@
+.coin-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.coin-icon-div {
+    width: 3rem;
+}
+
+.coin-icon-and-name {
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.coin-symbol {
+    text-transform: uppercase;
+}
+
+.currency-volume, .currency-market-cap {
+    text-align: end;
+}

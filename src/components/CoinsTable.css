@@ -1,0 +1,23 @@
+table {
+    width: 60%;
+    margin: 5.8rem auto 0 auto;
+    border-spacing: 1.5rem;
+    border-collapse: collapse;
+}
+
+th {
+    width: 9rem;
+    overflow: hidden;
+}
+
+tr {
+    border-bottom: 1px solid white;
+}
+
+td {
+    height: 4rem;
+    width: 9rem;
+    overflow: hidden;
+}
+
+

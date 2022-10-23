@@ -1,0 +1,32 @@
+
+.coin-column-name {
+    text-align: start;
+}
+
+.th-to-prettier {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+
+.sort-symbol-color {
+    color: gray;
+}
+
+.sort-symbol-color:hover {
+    color: white;
+}
+
+.ascending:after {
+    content: '\25BC';
+}
+
+.descending:after {
+    content: '\25B2';
+}
+
+.unsorted:after {
+    content: '\21C5';
+}

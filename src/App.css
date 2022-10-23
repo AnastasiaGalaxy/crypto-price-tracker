@@ -1,0 +1,98 @@
+:root {
+    --black: rgb(27, 26, 28);
+    --purple: rgb(155, 57, 222);
+    --blue: rgb(29, 54, 191);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.App {
+    color: white;
+
+}
+
+.container {
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 2.1rem;
+    margin: 0;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.content {
+    flex: 1 0 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.loading-icon-wrapper {
+    /*margin: auto;*/
+    /*margin-top: 10%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background: conic-gradient(var(--black), var(--purple), var(--blue));
+
+    animation: 2s linear infinite rotate;
+}
+
+.loading-icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+    background-color: var(--black);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    row-gap: 0.5rem;
+}
+
+.footer-symbols {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: var(--purple);
+}

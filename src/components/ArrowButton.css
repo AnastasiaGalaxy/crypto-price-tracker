@@ -1,0 +1,14 @@
+#arrow-up {
+    display: none;
+    position: fixed;
+    filter: invert(50%);
+    bottom: 2rem;
+    right: 6rem;
+    z-index: 2;
+
+    cursor: pointer;
+}
+
+#arrow-up:hover {
+    filter: invert(75%);
+}
